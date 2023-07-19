@@ -180,10 +180,42 @@
  .img4{
     display: flex;
 margin-left: 70px;
+
  }
  .img5{
     width: 635px;
     height: 655px;
     margin-top: 131px;
-    margin-left: 70px;
+    margin-right: 70px;
+position: relative;
+float: right;
+
+ }
+ .img6{
+    position: absolute;
+    top: 388px;
+    right: 453px;
+ }
+ .contant6{
+    
+    width: 353px;
+    height: 294px;
+    float: left;
+    margin-top: 398px;
+    margin-left: 179px;
+ }
+ .contant6 h1{
+    font-size: 48px;
+    font-weight: bold;
+ }
+ .contant6 h1 span{
+    color: #FF42A5;
+ }
+ .img7{
+    float: right;
+    background-image: url(images/Group\ 14.png);
+    background-position: ;
+ }
+ .section2{
+    background-color: #FF42A5;
  }
