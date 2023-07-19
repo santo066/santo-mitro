@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+  
+  header {
+    background-color: #ffffff;
+    color: #030303;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* .logo-img {
+    margin-left: 70px;
+  } */
+  .logo{
+    margin-left: 130px;
+  }
+  
+  .logo-title {
+    
+    margin-left: 10px;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .logo-title span{
+    color: #FF42A5;
+  }
+  
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 760px;
+  }
+  
+  .menu li {
+    margin-left: 10px;
+    padding-right: 20px;
+  }
+  
+  .button {
+    background-color: #bbb8b8;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 70px;
+  }
+  /* header close */
+
+  .content{
+    width: 50%;
+    height: 700px;
+    background-image: url(images/Group\ 14.png);
+    line-height: 30px;
+    justify-content: center;
+    padding-left: 130px;
+    padding-top: 250px;
+  }
+  .content h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .content h1{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 24px;
+    color:#FF42A5 ;
+  }
+  .content .p{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+ 
+
+  .button1{
+    background-color: #FF42A5;
+    border: none;
+    width: 185px;
+    height: 65px;
+    border-radius: 36px;
+    font-size: 20px;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+  .button2{
+    background-color: aqua;
+    border: none;
+    width: 185px;
+    height: 65px;
+    border-radius: 36px;
+    font-size: 20px;
+    color: wheat;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+.container{
+    display: flex;
+}
+  .img{
+    float: right;
+    width: 720px;
+    height: 680px;
+  }
